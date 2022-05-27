@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.container{
+    width: 100%;
+    height: 100px;
+    display: block;
+    margin: auto;
+  
+}
+
+.sistem{
+    display: block;
+    margin: auto;
+    width: 30%;
+    
+}
+
+.sistem input{
+    width: 500px;
+    height: 50px;
+    margin-bottom: 4px;
+    border: 2px solid black;
+    font-size: 18px;
+   
+}
+.tab{
+    display: block;
+}
+
+#cadastrar{
+    height: 50px;
+    width: 80px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+#cadastrar:hover{
+    color: white;
+    background-color: black;
+  
+}
+
+th{
+    font-size: 20px;
+}
+.delete{
+    width: 30px;
+  cursor: pointer;
+}
+.delete:hover{
+    background-color: red;
+}
+
+
+td{
+    padding-right: 10px;
+}
